@@ -25,7 +25,3 @@ if (str_contains($path, "../")) {
     $router->dispatch($path, $method);
 }
 
-//存在しなければnot foundにする。
-
-
-//こいつらの組み合わせで分岐させるようにする
